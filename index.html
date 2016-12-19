@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SUBWAY®</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="Shortcut Icon" href="Images/Logo/logo.ico">
+</head>
+<body>
+	<!-- container -->
+	<div id="whole">
+		<img src="Images/Logo/subway.png" alt="logo" width="27%" height="100px";>
+		<!-- navigation -->
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="choose_menu.html">Menu</a></li>
+				<li><a href="order.html">Make an Order</a></li>
+			</ul>
+		</nav>
+		<!-- navigation -->
+		
+
+		<!-- slideshow -->
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<a href="menu.html">
+				<img src="Images/slideshow/1.jpg" style="width:100%; border-radius: 5%;">
+				</a>
+			</div>
+
+			<div class="mySlides fade">
+				<a href="menu.html">
+				<img src="Images/slideshow/2.jpg" style="width:100%; border-radius: 5%;">
+				</a>
+			</div>
+
+			<div class="mySlides fade">
+			<a href="menu.html">
+				<img src="Images/slideshow/3.jpg" style="width:100%; border-radius: 5%;">
+				</a>
+			</div>
+</div>
+		<script>
+			var slideIndex = 0;
+			showSlides();
+
+			function showSlides() {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none"; 
+				}
+				slideIndex++;
+				if (slideIndex> slides.length) {slideIndex = 1} 
+					slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
+<!-- slideshow -->
+
+
+<!-- footer -->
+<footer><a href="https://www.facebook.com/subwaybg/" class="social"><img src="Images/Footer/facebook.png" alt="follow us on faceook" width="13%" height="40px"></a><a href="https://twitter.com/subwaybulgaria" class="social"><img src="Images/Footer/twitter.png" alt="follow us on twitter" width="13%" height="40px"></a></footer>
+<!-- footer -->
+</div>
+<!-- container -->
+</body>
+</html>

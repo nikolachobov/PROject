@@ -1,0 +1,172 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #016751;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav{
+	background: #005543;
+	width: 87%;
+	display: block;
+	margin-left: 13%;
+	margin-top: -7%;
+	border-radius: 51%;
+}
+ul{
+	margin-left: 16%;
+}
+li{
+	display: inline-block;
+	margin-left: 6%;
+}
+a{
+	display: block;
+	text-decoration: none;
+	color: #fff200;
+	font-family: Font;
+	font-size: 35px;
+	padding: 10px;
+}
+#whole{
+	width: 84%;
+	height: auto;
+	background-color: rgba(0, 85, 67, 0.23);
+	margin: auto;
+	border-radius: 4%;
+}
+img{
+	margin: 0%;
+
+}
+@font-face {
+	font-family: Font;
+	src: url(SHOWG.ttf);
+}
+#text{
+	margin: 15px;
+}
+footer{
+	background: #005543;
+	width: 100%;
+	display: block;
+	margin-top: auto;
+	border-radius: 51%;	
+}
+.social{
+	display: inline;
+	margin-left: 22%;
+}
+/* Slideshow container */
+.slideshow-container {
+	max-width: 1000px;
+	height: 550px;
+	position: relative;
+	margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+.menu{
+    width: 12%;
+    position: relative;
+    opacity: 0.7;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.menu:hover {
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}
+.menu{
+	display: inline-block;
+	margin: 5%;
+	margin-left: 17%;
+}
+p{
+	color: #fff200;
+	font-family: Font;
+	font-size: 35px;
+	padding: 10px;
+	text-align: center;
+	margin-top: 4%;
+}
+.choose{
+	color: #fff200;
+	font-family: Font;
+	font-size: 25px;
+}
+h4{
+	display: inline;
+    color: #fff200;
+    font-family: Font;
+    position: absolute;
+    margin-top: 2%;
+    font-size: 27px;
+    margin-left: 2%;
+}
+.sandwiches{
+	position: absolute;
+    display: block;
+    color: #fff200;
+    font-family: fantasy;
+    font-size: 18px;
+    margin-left: 13%;
+    margin-top: -8%;
+    text-align: left;
+}
+.sandwichesmenu{
+	margin-top: 6%;
+    margin-left: 5%;
+    display: block;
+    color: #fff200;
+    font-family: Font;
+    font-size: 14px;
+}
+.form{
+	color: #fff200;
+	font-family: fantasy;
+	font-size: 20px;
+	margin-left: -50%;
+    margin-top: auto;
+}
+.button{
+	margin-left: 47%;
+    padding: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: bolder;
+    background: #fff200;
+    border: 2px solid rgb(0, 47, 37);
+}
